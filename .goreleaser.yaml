@@ -14,13 +14,16 @@ builds:
       - darwin
       - freebsd
     goarch:
-    - amd64
-    - arm64
-    binary: "gh-ci-state/gh-ci-state-{{ .Os }}-{{ .Arch }}"
-
+      - amd64
+      - arm64
+    # Local artifact basename under dist/
+    binary: 'gh-ci-state-{{ .Os }}-{{ .Arch }}{{ if eq .Os "windows" }}.exe{{ end }}'
 
 archives:
-  - formats: [ 'binary' ]
+  - formats: [binary]
+    # gh extension releases: gh-<ext>-<os>-<arch>[.exe] with NO version in the filename.
+    # See https://docs.github.com/en/github-cli/github-cli/creating-github-cli-extensions#creating-a-precompiled-extension-manually
+    name_template: 'gh-ci-state-{{ .Os }}-{{ .Arch }}{{ if eq .Os "windows" }}.exe{{ end }}'
 
 changelog:
   sort: asc
