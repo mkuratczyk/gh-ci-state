@@ -1,8 +1,0 @@
-aa916ab8cb247e2a3636a5f77aaaf89deadeed2d6139a3a9b859ee83ae1b4533  gh-ci-state-darwin-amd64_0.3.0_darwin_amd64
-6da12ae90ab30b7ac6c14c60619c8e6e20d21546818a3874693dcc11cf0f3cdc  gh-ci-state-darwin-arm64_0.3.0_darwin_arm64
-37d416b3ab45ac36f18841b46aa4de93f3d19c9bbffeb0d4f0a8bd1b05e29ddb  gh-ci-state-freebsd-amd64_0.3.0_freebsd_amd64
-ce3f06cae0e3dfd68bc74ddd9e1eabb4a892d7cd1377fea6deb17a32dfd97bfb  gh-ci-state-freebsd-arm64_0.3.0_freebsd_arm64
-a8d5fabda7f449679adc7561a1b7278eab43e50c481ed641e884fd9142daed67  gh-ci-state-linux-amd64_0.3.0_linux_amd64
-2b808ee29cb234eccb6990d738a4bc4f571695dd9f0e850f8c7d67b1b99485fc  gh-ci-state-linux-arm64_0.3.0_linux_arm64
-5bc99e0a569e6dd8de3ee88d4fcda6cc04d18e0413a3902522a2e09eae522848  gh-ci-state-windows-amd64_0.3.0_windows_amd64.exe
-546365fa280631ef8c9725b5dc3440d96538d6a097069f019d88372a7e18ac3b  gh-ci-state-windows-arm64_0.3.0_windows_arm64.exe
