@@ -16,6 +16,8 @@ builds:
     goarch:
     - amd64
     - arm64
+    binary: "gh-ci-state/gh-ci-state-{{ .Os }}-{{ .Arch }}"
+
 
 archives:
   - formats: [ 'binary' ]
