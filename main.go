@@ -315,7 +315,7 @@ func countJobs(ctx context.Context, client *api.RESTClient, owner, repo string, 
 			break
 		}
 		for _, j := range resp.Jobs {
-			if j.Conclusion == "success" {
+			if j.Conclusion == "success" || j.Conclusion == "skipped" {
 				passed++
 			}
 		}
